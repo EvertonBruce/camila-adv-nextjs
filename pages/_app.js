@@ -1,5 +1,8 @@
 import '../styles/globals.css'
+const { library } = require('@fortawesome/fontawesome-svg-core');
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
+library.add(fab);
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }

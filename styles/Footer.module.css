@@ -1,0 +1,38 @@
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: #c09543;
+}
+
+.footer .container .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+  color: #2c2c2c;
+}
+
+.logoFooter .iconFooter {
+  font-size: 8rem;
+}
+
+.logoFooter .logoNome {
+  font-size: 2rem;
+  border-bottom: 1px solid #333;
+  margin-bottom: 25px;
+}
+
+.logoFooter .advogada {
+  font-size: 1rem;
+}
+
+.logoFooter span {
+  font-size: 1rem;
+}
+
+.logoFooter span a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
